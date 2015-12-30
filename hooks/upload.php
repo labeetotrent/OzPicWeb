@@ -5,7 +5,7 @@
 $new_image_name = uniqid();
 
 
-mail("trent@thetelstrastore.com.au", "test", "test". $_FILES["file"]["tmp_name"].  $new_image_name);
+//mail("trent@thetelstrastore.com.au", "test", "test". $_FILES["file"]["tmp_name"].  $new_image_name);
 //if (!file_exists('./'. $_POST["eventCode"])) {
 //    mkdir('./'. $_POST["eventCode"], 0777, true);
 //}
